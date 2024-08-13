@@ -1,1 +1,1 @@
-web: gunicorn facerecognition.wsgi
+web: gunicorn facerecognition.wsgi --bind 0.0.0.0:$PORT

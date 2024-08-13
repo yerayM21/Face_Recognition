@@ -7,7 +7,6 @@ Pillow
 pytz
 scikit-learn
 scipy
-sklearn
 sqlparse
 threadpoolctl
 gunicorn

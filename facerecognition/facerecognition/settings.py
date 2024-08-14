@@ -24,12 +24,12 @@ MEDIA_DIR = os.path.join(BASE_DIR,'media')
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'django-insecure-kdtr+d=jd4e#fl@m-57o%bzkho$#*n!3=&z_3xt6q+l^^3o(k4')
+SECRET_KEY = 'django-insecure-kdtr+d=jd4e#fl@m-57o%bzkho$#*n!3=&z_3xt6q+l^^3o(k4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.getenv('DJANGO_DEBUG', 'False') == 'True'
+DEBUG = True
 
-ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '').split(',')
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -55,7 +55,6 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'facerecognition.urls'
-
 
 TEMPLATES = [
     {

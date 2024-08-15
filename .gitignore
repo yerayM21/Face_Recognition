@@ -160,6 +160,19 @@ cython_debug/
 3_FaceDetection_FeatureExtraction/
 celebrity_images/
 emotion_data/
+haarcascade/
+Jupyter/
+image/
+
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+Face_Recognition/facerecognition/Aptfile
+Face_Recognition/facerecognition/.ebextensions
+Procfile
 
 
 # PyCharm

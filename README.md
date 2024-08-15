@@ -21,5 +21,21 @@ Este proyecto integra tanto modelos preentrenados como modelos entrenados por m�
 - Identificación de personas específicas en las imágenes mediante modelos entrenados.
 - Análisis y detección de emociones en las expresiones faciales.
 - Interfaz web intuitiva para cargar imágenes y visualizar los resultados.
+## Personas que Actualmente Reconoce el modelo 
+- Aamir Khan
+- Angelina Jolie
+- Barack Obama
+- Cristiano Ronaldo
+- Donald Trump
+- Elon Musk
+- Joe Biden
+- Leonardo DiCaprio
+- Lionel Messi
+- Robert Downey Jr
+- Roger Federer
+- Sachin Tendulkar
+- Salman Khan
+- Scarlett Johansson
+- Tom Curise
 ### Jupyter
 Archivos en jupyter notebook en los cuales realice pruebas para el funcionamiento de esta herramientas y en los cuales entre los modelos para el reconocimiento de rostro y emociones 
